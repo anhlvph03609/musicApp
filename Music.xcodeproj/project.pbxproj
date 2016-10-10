@@ -14,6 +14,9 @@
 		638209821DAB2B5B00187103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638209801DAB2B5B00187103 /* LaunchScreen.storyboard */; };
 		6382098D1DAB2B5B00187103 /* Music_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382098C1DAB2B5B00187103 /* Music_Tests.swift */; };
 		638209981DAB2B5B00187103 /* Music_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638209971DAB2B5B00187103 /* Music_UITests.swift */; };
+		638209A61DAB2B8B00187103 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638209A51DAB2B8B00187103 /* TableViewController.swift */; };
+		638209A81DAB2BFB00187103 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638209A71DAB2BFB00187103 /* Music.swift */; };
+		638209AB1DAB2F6F00187103 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638209AA1DAB2F6E00187103 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		638209931DAB2B5B00187103 /* MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music\U0010UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		638209971DAB2B5B00187103 /* Music_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_UITests.swift; sourceTree = "<group>"; };
 		638209991DAB2B5B00187103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638209A51DAB2B8B00187103 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		638209A71DAB2BFB00187103 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		638209AA1DAB2F6E00187103 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				638209AB1DAB2F6F00187103 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				6382098B1DAB2B5B00187103 /* MusicTests */,
 				638209961DAB2B5B00187103 /* MusicUITests */,
 				638209751DAB2B5A00187103 /* Products */,
+				638209A91DAB2F6E00187103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +108,11 @@
 				638209771DAB2B5A00187103 /* AppDelegate.swift */,
 				638209791DAB2B5A00187103 /* ViewController.swift */,
 				6382097B1DAB2B5A00187103 /* Main.storyboard */,
+				638209A71DAB2BFB00187103 /* Music.swift */,
 				6382097E1DAB2B5B00187103 /* Assets.xcassets */,
 				638209801DAB2B5B00187103 /* LaunchScreen.storyboard */,
 				638209831DAB2B5B00187103 /* Info.plist */,
+				638209A51DAB2B8B00187103 /* TableViewController.swift */,
 			);
 			path = "Music\U0010";
 			sourceTree = "<group>";
@@ -123,6 +133,14 @@
 				638209991DAB2B5B00187103 /* Info.plist */,
 			);
 			path = "Music\U0010UITests";
+			sourceTree = "<group>";
+		};
+		638209A91DAB2F6E00187103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638209AA1DAB2F6E00187103 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6382097A1DAB2B5A00187103 /* ViewController.swift in Sources */,
+				638209A61DAB2B8B00187103 /* TableViewController.swift in Sources */,
 				638209781DAB2B5A00187103 /* AppDelegate.swift in Sources */,
+				638209A81DAB2BFB00187103 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
