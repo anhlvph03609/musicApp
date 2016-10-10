@@ -103,7 +103,9 @@ class ViewController: UIViewController {
     
     @IBAction func changeAudioTime(_ sender: AnyObject) {
         player.pause()
-        print(slider.value)
+        player.seek(to: CMTimeMake(Int64(slider.value), 1))
+        slider.value = slider.value
+        player.prepareForInterfaceBuilder()
         player.play()
     }
     

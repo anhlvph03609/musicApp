@@ -211,6 +211,7 @@
 				TargetAttributes = {
 					638209731DAB2B5A00187103 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KR69KB8PHL;
 						ProvisioningStyle = Automatic;
 					};
 					638209871DAB2B5B00187103 = {
@@ -432,9 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KR69KB8PHL;
 				INFOPLIST_FILE = "Music\U0010/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Anh.Music-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -444,9 +446,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KR69KB8PHL;
 				INFOPLIST_FILE = "Music\U0010/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Anh.Music-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Anh.Music;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -525,6 +528,7 @@
 				6382099E1DAB2B5B00187103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6382099F1DAB2B5B00187103 /* Build configuration list for PBXNativeTarget "MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +537,7 @@
 				638209A11DAB2B5B00187103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		638209A21DAB2B5B00187103 /* Build configuration list for PBXNativeTarget "MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +546,7 @@
 				638209A41DAB2B5B00187103 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
