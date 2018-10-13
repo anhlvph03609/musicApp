@@ -8,8 +8,8 @@
 
 import Foundation
 class Music : NSObject,NSCoding {
-    var name :String = ""
-    var artist : String = ""
+    var name :String = "eee"
+    var artist : String = "eee"
     var releaseDate : String = ""
     var img : String = ""
     var song_link  = ""
