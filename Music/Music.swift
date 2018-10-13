@@ -9,8 +9,8 @@
 import Foundation
 class Music : NSObject,NSCoding {
     var name :String = "eee"
-    var artist : String = "eee"
-    var releaseDate : String = ""
+    var artist : String = " "
+    var releaseDate : String = "ssssss"
     var img : String = ""
     var song_link  = ""
     override init() {
